@@ -1,0 +1,20 @@
+.tarjeta {
+    transition: 1s;
+  }
+  
+  .tarjeta:hover {
+    transform: scale(1.05);
+  }
+  
+  .boton {
+    transition: 0.5s;
+    background-color: #FEFAE0;
+    color: #BC6C25;
+  }
+  
+  .boton:hover {
+    transform: scale(1.05);
+    background-color: #BC6C25;
+    color: white;
+  }
+  

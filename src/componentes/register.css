@@ -1,0 +1,39 @@
+.background {
+    background-image: url("https://i.ibb.co/YTW1BjY/or-hakim-S2-Eql9v-HN3o-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.content {
+    background-color: white;
+    border-radius: 40px;
+    padding: 2rem;
+    max-width: 800px;
+    width: 100%;
+}
+
+.colorTexto {
+    color: #924400;
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer {
+    background-color: #DDA15E;
+    color: white;
+}
+
+.footer .container {
+    padding: 1rem;
+}
+
+@media (min-width: 768px) { /* Breakpoint md */
+    .fs-md-2 {
+        font-size: 5px;
+    }
+}
