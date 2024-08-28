@@ -5,7 +5,7 @@ import { Navbar, Nav, Container, Offcanvas } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 
 
-function Home() {
+function Home({deslogeo}) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -49,6 +49,10 @@ function Home() {
                   <i className="bi bi-search fs-1 me-2"></i>
                   <span>Buscar</span>
                 </Nav.Link>
+                <Nav.Link as={Link} to="/" onClick={deslogeo} className="d-flex align-items-center">
+                  <i className="bi bi-box-arrow-left fs-1"></i>
+                  <span>  Log out</span>
+                </Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
@@ -67,6 +71,9 @@ function Home() {
             />
             <Nav.Link as={Link} to="/recipePage" className="d-flex align-items-center">
               <i className="bi bi-person-circle fs-1"></i>
+            </Nav.Link>
+            <Nav.Link as={Link} to="/" onClick={deslogeo} className="d-flex align-items-center">
+              <i className="bi bi-box-arrow-left fs-1"></i>
             </Nav.Link>
           </Nav>
         </Container>

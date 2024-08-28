@@ -1,11 +1,10 @@
-// Login.js
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './Login.css';
 import { Link } from 'react-router-dom';
 
-function Login({ onLogin }) {  // Asegúrate de incluir onLogin aquí
+function Login({ onLogin }) {
     return (
         <div className="background d-flex flex-column justify-content-between" style={{ minHeight: "100vh", position: "relative" }}>
             {/* Logo en la esquina superior izquierda */}
