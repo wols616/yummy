@@ -32,14 +32,14 @@ function NavbarComponent() {
         />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setIsOpen(!isOpen)} />
-      <Navbar.Collapse id="basic-navbar-nav" in={isOpen}>
+      <Navbar.Collapse in={isOpen} id="basic-navbar-nav" className="d-md-flex justify-content-between">
         <Nav className="mr-auto">
           <Nav.Link as={Link} to="/" className='btn rounded-pill p-2 px-5 mx-2 my-md-0 my-2 boton'>Inicio</Nav.Link>
           <Nav.Link as={Link} to="/login" className='btn rounded-pill p-2 px-5 mx-2 my-md-0 my-2 boton'>Iniciar Sesión</Nav.Link>
           <Nav.Link as={Link} to="/register" className='btn rounded-pill p-2 px-5 mx-2 my-md-0 my-2 boton'>Registrarse</Nav.Link>
         </Nav>
-        <div className="d-none d-md-flex align-items-center col-md-4">
-          <input type="text" className="rounded-pill p-2 col-12" placeholder="Buscar" />
+        <div className="d-none d-md-block">
+          <input type="text" className="rounded-pill p-2" style={{width:"50vh"}} placeholder="Buscar" />
         </div>
       </Navbar.Collapse>
     </Navbar>

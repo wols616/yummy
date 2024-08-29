@@ -1,0 +1,57 @@
+/* Carrusel.css */
+
+.carousel-item img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: 60vh; /* Mantiene la proporción de aspecto de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsión */
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+    
+  }
+  
+  .carousel-thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+     /* Gris con 50% de opacidad */
+  }
+  
+  .carousel-thumbnails img{
+    filter: brightness(50%); /* Reduce el brillo para oscurecer */
+  }
+
+  .carousel-thumbnails .thumbnail {
+    width: 20%; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Ajusta el tamaño según tus necesidades */
+    cursor: pointer;
+    margin: 0 5px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .carousel-thumbnails .thumbnail.active {
+    border-color: #007bff; /* Color de borde para la miniatura activa */
+  }
+  
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+    .carousel-item img {
+      height: 50vh; /* Ajusta la altura para pantallas más pequeñas */
+    }
+  
+    .carousel-thumbnails .thumbnail {
+      width: 30%; /* Aumenta el tamaño de las miniaturas en pantallas más pequeñas */
+    }
+  }
+  
+  /* Media Queries para pantallas muy pequeñas (teléfonos) */
+  @media (max-width: 480px) {
+    .carousel-item img {
+      height: 40vh; /* Ajusta la altura aún más para pantallas pequeñas */
+    }
+  
+    .carousel-thumbnails .thumbnail {
+      width: 40%; /* Aumenta aún más el tamaño de las miniaturas en pantallas muy pequeñas */
+    }
+  }
