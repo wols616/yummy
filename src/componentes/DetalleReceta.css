@@ -1,0 +1,37 @@
+body {
+    background-color: #FEFAE0;
+}
+
+.recipe-section {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.recipe-title {
+    color: #BC6C25;
+}
+
+.ingredients-title,
+.instructions-title {
+    color: #DDA15E;
+    border-bottom: 2px solid #DDA15E;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.step-number {
+    font-size: 2em;
+    color: #DDA15E;
+    margin-right: 10px;
+}
+
+.step {
+    margin-bottom: 15px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 1vh;
+    object-fit: cover;
+}

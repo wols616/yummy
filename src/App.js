@@ -9,6 +9,9 @@ import Login from './componentes/Login';
 import Register from './componentes/Register';
 import Home from './componentes/Home';
 import RecipePage from './componentes/RecipePage';
+import Publicar from './componentes/Publicar';
+import DetalleReceta from './componentes/DetalleReceta';
+import MiNavbar from './componentes/MiNavbar';
 
 function NavbarComponent() {
   const [isOpen, setIsOpen] = useState(false);
@@ -72,6 +75,9 @@ function App() {
           <Route path="/register" element={<Register onLogin={logeo} />} />
           <Route path='/home' element={<Home deslogeo={deslogeo}/>} />
           <Route path='/recipePage' element={<RecipePage deslogeo={deslogeo}/>} />
+          <Route path='/publicar' element={<Publicar deslogeo={deslogeo}/>}/>
+          <Route path='/detalleReceta' element={<DetalleReceta deslogeo={deslogeo}/>}/>
+          
         </Routes>
       </div>
     </Router>
