@@ -7,21 +7,21 @@ const items = [
   {
     src: 'https://i.ibb.co/XYR8srB/pexels-pixabay-434258.jpg',
     altText: 'Slide 1',
-    caption: 'Slide 1',
+    caption: 'Verduras salteadas',
     key: 1,
     link: '/detalleReceta', // Agrega el enlace correspondiente
   },
   {
     src: 'https://i.ibb.co/NmmJSnb/pexels-fotios-photos-1279330.jpg',
     altText: 'Slide 2',
-    caption: 'Slide 2',
+    caption: 'Spaghetti',
     key: 2,
     link: '/detalleReceta', // Agrega el enlace correspondiente
   },
   {
     src: 'https://i.ibb.co/0G5cfkL/pexels-dana-tentis-118658-262959.jpg',
     altText: 'Slide 3',
-    caption: 'Slide 3',
+    caption: 'Ancas de rana',
     key: 3,
     link: '/detalleReceta', // Agrega el enlace correspondiente
   },

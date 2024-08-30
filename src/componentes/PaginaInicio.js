@@ -30,7 +30,7 @@ function PaginaInicio() {
               </div>
               <div className="d-flex flex-column flex-md-row justify-content-between col-12 col-xl-10 col-xxl-8 m-auto gap-xxl-5 gap-xl-4 gap-3" style={{ padding: '1rem' }}>
                 <div className="card mb-4 tarjeta" style={{ width: '100%' }}>
-                  <img src="https://i.ibb.co/vqrYqgT/image.png" className="card-img-top" alt="Burritos al pastor" />
+                  <img src="https://i.ibb.co/vqrYqgT/image.png" className="card-img-top imgSize" alt="Burritos al pastor" />
                   <div className="card-body">
                     <h5 className="card-title">Burritos al pastor solo con 4 ingredientes</h5>
                     <div className="d-flex justify-content-end">
@@ -40,9 +40,9 @@ function PaginaInicio() {
                   </div>
                 </div>
                 <div className="card mb-4 tarjeta" style={{ width: '100%' }}>
-                  <img src="https://i.ibb.co/vqrYqgT/image.png" className="card-img-top" alt="Burritos al pastor" />
+                  <img src="https://s3-alpha-sig.figma.com/img/6ce9/4800/d716bab137de84d7fe22554bcc5e5e3d?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hwl5vb0vldMGhAVlJLQ5q3y5KGOFPLe2OzkBC1FWGQ4IbUJg8OwU2mTEaQow8uQuw8xWH6q2knlf2sGh66fsmKjGWpXap-x4PHiafjTstpRh~nhoqFYWdY2XSUlFjy5~7Tq~IbWUA-nv9MKYa2wCeYzhEpPCen4WzhimeqLMV6qTPAAeblkjc-ln-2iMjTL82Fm95-IeP4tdDH2XbGouLmsElazIW4RQ8vli2FSSXjhVRYT5KQcVj0ZdK6zDA-G6-OnTuToL-vF66BqkNanZ66D3n5myJx23IIOnma0wRQau1oGb2WkB8dwD4gMWydjZelNTsw0fmtjX2gJcY7aXhQ__" className="card-img-top imgSize" alt="Burritos al pastor" />
                   <div className="card-body">
-                    <h5 className="card-title">Burritos al pastor solo con 4 ingredientes</h5>
+                    <h5 className="card-title">Deliciosa pasta con jitomates</h5>
                     <div className="d-flex justify-content-end">
                       <i className="bi bi-heart"></i>
                       <i className="bi bi-bookmark ml-2"></i>
@@ -50,9 +50,9 @@ function PaginaInicio() {
                   </div>
                 </div>
                 <div className="card mb-4 tarjeta" style={{ width: '100%' }}>
-                  <img src="https://i.ibb.co/vqrYqgT/image.png" className="card-img-top" alt="Burritos al pastor" />
+                  <img src="https://s3-alpha-sig.figma.com/img/0637/18fb/0700a2a466b7a1c664be422eef630450?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V8iTwthOzJtQdxjMk7WZ~bdGGECbU3Rgnez3dcAU78igD8ZZTeVDF1JQSfuqZfud9g1lBOMcfv2rnKd8EQzsvGb9eO4uPQG72RI1THqGE1MfOdyuBklxtrYtFFFCzBE~VKiJffDkP9PerQ7A7JdlN1xTHBXhdEV6SULtFNAYNIZWVzsZJOhAGMFEnwJ-S5ZRhTpANxtt5xALQHP0tOuYskOPq2Yj3ePguplNhOJR0FrLqKxH-o8WBKwH6fQ4mK5hfdMIqsvssE13xFttTsw4c6h~xyX7KvBmZkpJn99ueOp4Tg0-eVZ1g6BzBWLh1ZaOpP5iqG68IhAQswG~q2VO5g__" className="card-img-top imgSize" alt="Burritos al pastor" />
                   <div className="card-body">
-                    <h5 className="card-title">Burritos al pastor solo con 4 ingredientes</h5>
+                    <h5 className="card-title">Pollo con salsa Chipotle</h5>
                     <div className="d-flex justify-content-end">
                       <i className="bi bi-heart"></i>
                       <i className="bi bi-bookmark ml-2"></i>

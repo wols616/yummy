@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './register.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-
+import Footer from './Footer';
 
 function Register({onLogin}){
     return(
@@ -71,23 +71,8 @@ function Register({onLogin}){
                 </div>
             </div>
 
-            <div className="footer">
-                <section className="Container">
-                    <h2>©2024 YUMMY</h2>
-                    <div className="d-flex justify-content-between mt-3 flex-wrap">
-                        <div className="fs-md-2 d-flex gap-3 gap-md-5">
-                            <h6>TERMINOS DE USO</h6>
-                            <h6>POLITICAS DE PRIVACIDAD</h6>
-                            <h6>COOKIES</h6>
-                        </div>
-                        <div>
-                            <i className="bi bi-youtube"></i>
-                            <i className="bi bi-instagram"></i>
-                            <i className="bi bi-facebook"></i>
-                        </div>
-                    </div>
-                </section>
-            </div>
+            <Footer/>
+            
         </div>
     );
 }

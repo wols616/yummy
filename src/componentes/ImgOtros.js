@@ -3,18 +3,16 @@ import './ImgSlider.css'; // Importa el CSS con las animaciones
 import { Link } from 'react-router-dom';
 
 const images = [
-  'https://i.ibb.co/j6kxkym/pexels-ella-olsson-572949-3026810.jpg',
-  'https://i.ibb.co/z7rJ0sY/pexels-ella-olsson-572949-3026804.jpg',
-  'https://i.ibb.co/nQCByGy/pexels-abhinavcoca-291528.jpg',
-  'https://i.ibb.co/jMK5Q1s/pexels-janetrangdoan-1092730.jpg',
-  'https://i.ibb.co/XYR8srB/pexels-pixabay-434258.jpg',
-  'https://i.ibb.co/NmmJSnb/pexels-fotios-photos-1279330.jpg',
-  'https://i.ibb.co/0G5cfkL/pexels-dana-tentis-118658-262959.jpg',
-  'https://i.ibb.co/gDJNGtT/free-photo-of-comida-plato-italiano-cena.jpg'
+  "https://imagenes.20minutos.es/files/image_640_auto/uploads/imagenes/2023/01/03/20-carnitas-mexicanas.jpeg",
+  "https://cdn7.kiwilimon.com/ss_secreto/4386/640x640/4386.jpg.webp",
+  "https://uvn-brightspot.s3.amazonaws.com/assets/vixes/imj/elgranchef/p/platos-para-papa-2.jpg",
+  "https://reservalamakina.com/wp-content/uploads/2022/03/Captura-de-Pantalla-2022-03-24-a-las-12.18.10-531x354.png",
+  "https://www.customculinary.global/CustomCulinary/media/CASA/Cenam/Recipes/Albondigas-Chicknless-Buffalo.jpg?ext=.jpg"
+
 
 ];
 
-function ImageSlider() {
+function ImageSliderOtros() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
@@ -47,4 +45,4 @@ function ImageSlider() {
   );
 }
 
-export default ImageSlider;
+export default ImageSliderOtros;

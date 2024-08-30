@@ -36,19 +36,19 @@ const RecipePage = ({deslogeo}) => {
 
                     <section className="d-flex flex-column p-5 mx-md-5 align-items-center justify-content-between" style={{ backgroundColor: 'white', borderRadius: '2%' }}>
                         <div className="d-flex flex-column flex-md-row align-items-center justify-content-between col-12">
-                            <img src="https://i.ibb.co/zmMvLYs/mariscos.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 1" />
-                            <img src="https://i.ibb.co/zmMvLYs/mariscos.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 2" />
-                            <img src="https://i.ibb.co/zmMvLYs/mariscos.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 3" />
+                            <img src="https://i.ibb.co/vBXP9xD/blueberries-4211525-640.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 1" />
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/bebidas-verano-portada-elle-1658494280.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 2" />
+                            <img src="https://i.ibb.co/3MvFcXn/tarte-2409958-640.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 3" />
                         </div>
                         <div className="d-flex flex-column flex-md-row align-items-center justify-content-between col-12">
-                            <img src="https://i.ibb.co/zmMvLYs/mariscos.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 4" />
-                            <img src="https://i.ibb.co/zmMvLYs/mariscos.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 5" />
-                            <img src="https://i.ibb.co/zmMvLYs/mariscos.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 6" />
+                            <img src="https://i.ibb.co/yW9yjSk/scallions-7849575-640.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 4" />
+                            <img src="https://i.ibb.co/ngwVz0b/food-712666-640.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 5" />
+                            <img src="https://i.ibb.co/Jd25MCH/ukrainian-dill-potatoes-2652561-1280.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 6" />
                         </div>
                         <div className="d-flex flex-column flex-md-row align-items-center justify-content-between col-12">
-                            <img src="https://i.ibb.co/zmMvLYs/mariscos.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 7" />
-                            <img src="https://i.ibb.co/zmMvLYs/mariscos.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 8" />
-                            <img src="https://i.ibb.co/zmMvLYs/mariscos.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 9" />
+                            <img src="https://i.ibb.co/S3k78ny/toast-7009956-640.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 7" />
+                            <img src="https://i.ibb.co/pztpzCB/waffles-5192625-640.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 8" />
+                            <img src="https://i.ibb.co/dbdshfJ/cereal-5712343-640.jpg" className="img-fluid col-12 col-md-3 my-3" alt="Mariscos 9" />
                         </div>
                     </section>
                 </div>
